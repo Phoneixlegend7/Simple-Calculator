@@ -9,4 +9,4 @@ const ButtonsContainer = ({buttonFunctionality, buttonNames}) =>{
       </div>
       )
 }
-export default ButtonsContainer;
+export default ButtonsContainer ;

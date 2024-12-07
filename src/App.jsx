@@ -27,7 +27,7 @@ function App() {
   return (
   <div  className = {style.calculator}>
       <Display handleInputValue = {inputValue} />
-      <ButtonsContainer buttonFunctionality = {(e) => buttonFunctionality(e)} buttonNames={buttonNames}/>
+      <ButtonsContainer    buttonFunctionality = {(e) => buttonFunctionality(e)} buttonNames={buttonNames}/>
   </div>
   )
 }
